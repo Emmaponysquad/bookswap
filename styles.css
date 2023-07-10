@@ -1,0 +1,340 @@
+/* General Styles */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f2ea;
+    color: #5c4b3c;
+  }
+  
+  h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+  }
+  
+ footer, .landing-page {
+    background-color: #524237;
+    color: #f5f2ea;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  
+  
+  /* Book Listings */
+  .section-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book-title {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .book-author, .book-price {
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #524237;
+    color: #f5f2ea;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .main-page {
+    padding-top: 60px;
+    height: 750px;
+    width: 1520px;
+    background-color:#e0d4cc;
+  }
+
+  .book {
+    height: 180px;
+    width: 140px;
+    padding: 0;
+    border: 0;
+    position: relative;
+    transform: rotate(25deg);
+  }
+
+  .numberone {
+    left: 40px;
+  }
+  .numbertwo {
+    left:100px;
+    top: 20px;
+  }
+
+  .numberthree {
+    left: 160px;
+  }
+
+  .numberfour {
+    left: 220px;
+  }
+
+  .numberfive {
+    left: 280px;
+  }
+
+  .numbersix {
+    left: 340px;
+  }
+
+
+  .numberseven {
+    left: 400px;
+    
+  }
+
+  .numbereight {
+    left: 460px;
+  }
+  .rowone {
+    top: 20px;
+    z-index: 0;
+  }
+
+  .rowtwo {
+    top: 60px;
+    z-index: 0;
+  }
+
+  .rowthree {
+    top: 120px;
+    z-index: 0;
+  }
+
+  .text {
+    x-index:1
+  }
+
+  .yay {
+    position: relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: -550px;
+  height: 700px;
+  width: 900px;
+  }
+
+  .yaytext {
+    position: relative;
+    top: -1100px;
+    z-index: 2;
+    display: block;
+    margin-left: 600px;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+  }
+
+  .extrashit {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -1050px;
+    width: 700px;
+  }
+
+  nav {
+    background-color: #d0beb2;
+    padding-top: 10px;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    padding-bottom: 5px;
+    margin:5px;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    
+    box-shadow: inset 0 0 0 0 #a09585;
+    color: #a09585;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    
+  
+  
+  li a:hover {
+    box-shadow: inset 100px 0 0 0 #e0c7b7;
+    color: white;
+  }
+
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+  
+  
+
+  .books {
+    border: 1px solid #d1c5b8;
+    padding: 10px;
+    background-color: #f5f2ea;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  #hi {
+    position: relative;
+    bottom: 930px;
+    left: 700px;
+    height: 60px;
+    width: 95px;
+    font-size: 20px;
+  }
+
+  .testimonial-container {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background-color:#e0d4cc;
+  }
+  
+  .testimonial-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .testimonial-slide.active {
+    opacity: 1;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 350px;
+    font-size: 25px;
+    width: 500px;
+    left: 550px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    position: relative;
+    bottom: 300px;
+    font-size: 25px;
+    left: 800px;
+  }
+  
+  @keyframes testimonialSlide {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    53.33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .testimonial-container .testimonial-slide:nth-child(1) {
+    animation: testimonialSlide 9s infinite;
+  }
+  
+  .testimonial-container .testimonial-slide:nth-child(2) {
+    animation: testimonialSlide 9s infinite 3s;
+  }
+  
+  .testimonial-container .testimonial-slide:nth-child(3) {
+    animation: testimonialSlide 9s infinite 6s;
+  }
+
+  .testimony {
+    position: relative;
+    height: 500px;
+    width: 700px;
+    left: 450px;
+  }
+
+  .logoyay {
+    font-family: 'Dancing Script', cursive;
+    height: 30px;
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+  }
+
+  .book-listings {
+    height: 700px;
+    background-color: #c9c4c1;
+  }
+
+  .section-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+  }
+  
